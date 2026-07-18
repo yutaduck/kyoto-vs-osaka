@@ -154,8 +154,8 @@ body::before{
 .choice.k{background:linear-gradient(140deg,var(--kyoto),var(--kyoto-deep))}
 .choice.o{background:linear-gradient(140deg,var(--osaka),var(--osaka-deep))}
 .choice .big{font-size:38px;font-weight:800;display:block}
-.choice .en{font-family:'Playfair Display',serif;font-style:italic;font-size:14px;opacity:.9;letter-spacing:.1em}
-.choice .go{display:inline-block;margin-top:16px;font-family:'Noto Sans JP';font-size:13px;letter-spacing:.15em;border:1px solid rgba(255,255,255,.6);border-radius:20px;padding:7px 16px}
+.choice .en{display:block;font-family:'Playfair Display',serif;font-style:italic;font-size:14px;opacity:.9;letter-spacing:.1em}
+.choice .go{display:block;width:fit-content;margin:16px auto 0;font-family:'Noto Sans JP';font-size:13px;letter-spacing:.15em;border:1px solid rgba(255,255,255,.6);border-radius:20px;padding:7px 16px}
 .verdict{max-width:640px;margin:34px auto 0;background:var(--card);border:2px dashed var(--line);border-radius:18px;padding:30px 26px;font-size:17px;line-height:1.9;min-height:10px;opacity:0;transform:scale(.96);transition:.4s}
 .verdict.show{opacity:1;transform:none}
 .verdict .v-stamp{display:inline-block;transform:rotate(-6deg);font-weight:800;font-size:22px;padding:6px 18px;border:3px solid;border-radius:12px;margin-bottom:14px}
@@ -273,7 +273,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>清水寺</h4>
           <div class="romaji">Kiyomizu-dera</div>
           <p>断崖にせり出す「清水の舞台」から京都市街を一望。春は桜、秋は紅葉が舞台を彩り、参道の二寧坂・産寧坂の食べ歩きも楽しい。</p>
-          <div class="tags"><span>世界遺産</span><span>絶景の舞台</span><span>紅葉</span></div>
         </div>
       </article>
 
@@ -283,7 +282,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>伏見稲荷大社</h4>
           <div class="romaji">Fushimi Inari Taisha</div>
           <p>朱色の「千本鳥居」がどこまでも連なる、稲荷神の総本宮。山頂まで登る約2時間のプチ登山も人気。早朝は人が少なく幻想的。</p>
-          <div class="tags"><span>千本鳥居</span><span>フォトスポット</span><span>ハイキング</span></div>
         </div>
       </article>
 
@@ -293,7 +291,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>金閣寺（鹿苑寺）</h4>
           <div class="romaji">Kinkaku-ji</div>
           <p>金箔に包まれた楼閣が、鏡のような池に映り込む世界遺産。雪化粧の姿はまさに絶景。庭園をぐるりと巡る散策路も見どころ。</p>
-          <div class="tags"><span>世界遺産</span><span>黄金</span><span>庭園</span></div>
         </div>
       </article>
 
@@ -303,7 +300,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>嵐山・竹林の小径</h4>
           <div class="romaji">Arashiyama</div>
           <p>見上げるほど高い竹に包まれた小径と、渡月橋の風景。トロッコ列車や保津川下り、周辺の寺社めぐりまで一帯で一日楽しめる。</p>
-          <div class="tags"><span>竹林</span><span>渡月橋</span><span>自然</span></div>
         </div>
       </article>
 
@@ -313,7 +309,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>祇園・花見小路</h4>
           <div class="romaji">Gion</div>
           <p>石畳と町家がつづく風情ある花街。夕暮れどきには舞妓さんに出会えることも。八坂神社や白川沿いの散歩もおすすめ。</p>
-          <div class="tags"><span>花街</span><span>町家</span><span>夕暮れ散歩</span></div>
         </div>
       </article>
 
@@ -323,7 +318,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>抹茶と和スイーツ</h4>
           <div class="romaji">Kyoto Sweets</div>
           <p>歩き疲れたら、宇治抹茶のパフェや抹茶ラテでひと休み。茶房や甘味処が街のあちこちにあり、京都ならではの上品な甘さが旅の疲れをほどいてくれる。抹茶ソフト片手の食べ歩きもぜひ。</p>
-          <div class="tags"><span>宇治抹茶</span><span>和スイーツ</span><span>甘味処</span></div>
         </div>
       </article>
     </div>
@@ -356,7 +350,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>大阪城</h4>
           <div class="romaji">Osaka Castle</div>
           <p>豊臣秀吉が築いた大阪のシンボル。天守閣からの眺めと、桜・紅葉に彩られる広大な公園。夜のライトアップされた姿も堂々たる美しさ。</p>
-          <div class="tags"><span>名城</span><span>天守閣</span><span>お花見</span></div>
         </div>
       </article>
 
@@ -366,7 +359,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>道頓堀</h4>
           <div class="romaji">Dotonbori</div>
           <p>川沿いにきらめくネオンと巨大看板。グリコサインの前で記念撮影は定番中の定番。たこ焼き・串カツ食べ歩きの中心地でもある食い倒れの聖地。</p>
-          <div class="tags"><span>ネオン</span><span>グリコサイン</span><span>食べ歩き</span></div>
         </div>
       </article>
 
@@ -376,7 +368,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>通天閣・新世界</h4>
           <div class="romaji">Tsutenkaku</div>
           <p>レトロな空気ただよう下町、新世界のランドマーク。展望台の「ビリケンさん」の足裏をなでて願かけを。まわりには名物・串カツの名店がずらり。</p>
-          <div class="tags"><span>レトロ</span><span>ビリケン</span><span>串カツ</span></div>
         </div>
       </article>
 
@@ -386,7 +377,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>海遊館</h4>
           <div class="romaji">Kaiyukan</div>
           <p>世界最大級をほこる水族館。ジンベエザメが悠々と泳ぐ巨大水槽は圧巻のひとこと。天保山のベイエリアには観覧車やマーケットもあり一日中楽しめる。</p>
-          <div class="tags"><span>水族館</span><span>ジンベエザメ</span><span>ベイエリア</span></div>
         </div>
       </article>
 
@@ -396,17 +386,15 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
           <h4>梅田スカイビル</h4>
           <div class="romaji">Umeda Sky Building</div>
           <p>2棟をつなぐ近未来的な建築。屋上の「空中庭園展望台」からは、大阪の街あかりを360度ぐるりと見わたせる。夕暮れから夜景への移ろいが特におすすめ。</p>
-          <div class="tags"><span>夜景</span><span>展望台</span><span>建築</span></div>
         </div>
       </article>
 
       <article class="spot reveal">
-        <div class="ph"><div class="img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Takoyaki_by_yomi955.jpg')"></div><div class="badge osaka-bg">6</div></div>
+        <div class="ph"><div class="img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/A_boat_of_%27KOUGARYU_Takoyaki%27_%E3%80%8C%E7%94%B2%E8%B3%80%E6%B5%81%E3%80%8D%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%80%8C%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%A8%E3%80%8D.jpg/1280px-A_boat_of_%27KOUGARYU_Takoyaki%27_%E3%80%8C%E7%94%B2%E8%B3%80%E6%B5%81%E3%80%8D%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%80%8C%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%A8%E3%80%8D.jpg')"></div><div class="badge osaka-bg">6</div></div>
         <div class="body">
           <h4>たこ焼き・粉もん</h4>
           <div class="romaji">Takoyaki &amp; Konamon</div>
           <p>たこ焼き、お好み焼き、串カツ、豚まん…。「食い倒れの街」の本気を、屋台からお店までハシゴして味わおう。安くて、熱くて、うまい。これぞ大阪。</p>
-          <div class="tags"><span>たこ焼き</span><span>お好み焼き</span><span>食い倒れ</span></div>
         </div>
       </article>
     </div>
@@ -435,7 +423,6 @@ footer .credit{font-size:11px;opacity:.75;margin-top:14px}
 <footer>
   <div class="divider"></div>
   <div class="serif" style="font-size:16px;color:var(--ink)">Kyoto vs Osaka &middot; 京都と大阪の旅のしおり</div>
-  <div class="credit">Have a wonderful trip! &#127881;</div>
 </footer>
 
 <script>
